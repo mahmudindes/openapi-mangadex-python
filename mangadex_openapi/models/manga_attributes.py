@@ -42,7 +42,7 @@ class MangaAttributes(BaseModel):
     year: Optional[StrictInt] = Field(default=None, description="Year of release")
     content_rating: Optional[StrictStr] = Field(default=None, alias="contentRating")
     chapter_numbers_reset_on_new_volume: Optional[StrictBool] = Field(default=None, alias="chapterNumbersResetOnNewVolume")
-    available_translated_languages: Optional[List[Annotated[str, Field(strict=True)]]] = Field(default=None, alias="availableTranslatedLanguages")
+    available_translated_languages: Optional[List[Optional[Annotated[str, Field(strict=True)]]]] = Field(default=None, alias="availableTranslatedLanguages")
     latest_uploaded_chapter: Optional[StrictStr] = Field(default=None, alias="latestUploadedChapter")
     tags: Optional[List[Tag]] = None
     state: Optional[StrictStr] = None

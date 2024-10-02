@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mangadex_openapi"
-version = "5.10.2"
+version = "5.10.2.dev1"
 description = "MangaDex API"
 authors = ["MangaDex staff team <support@mangadex.org>"]
 license = "NoLicense"

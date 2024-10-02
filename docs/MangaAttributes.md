@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **year** | **int** | Year of release | [optional] 
 **content_rating** | **str** |  | [optional] 
 **chapter_numbers_reset_on_new_volume** | **bool** |  | [optional] 
-**available_translated_languages** | **List[str]** |  | [optional] 
+**available_translated_languages** | **List[Optional[str]]** |  | [optional] 
 **latest_uploaded_chapter** | **str** |  | [optional] 
 **tags** | [**List[Tag]**](Tag.md) |  | [optional] 
 **state** | **str** |  | [optional] 

@@ -15,7 +15,7 @@
 """  # noqa: E501
 
 
-__version__ = "5.10.2"
+__version__ = "5.10.2.dev1"
 
 # import apis into sdk package
 from mangadex_openapi.api.api_client_api import ApiClientApi
